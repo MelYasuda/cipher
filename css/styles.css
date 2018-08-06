@@ -1,0 +1,20 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+img {
+  width: 300px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.oneThirdWidth {
+  display: inline;
+  width: 33.3%;
+}

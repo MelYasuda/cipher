@@ -27,4 +27,14 @@ var fourthStep = function(sentence){
   return array.join("");
 }
 
-console.log(fourthStep(sentence));
+var result = fourthStep(sentence);
+
+$(document).ready(function() {
+  $("#photo1").click(function(){
+    alert(sentence);
+  });
+
+  $("#photo2").click(function(){
+    alert(result);
+  });
+});
